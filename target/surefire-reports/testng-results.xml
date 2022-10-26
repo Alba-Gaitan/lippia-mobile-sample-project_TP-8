@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-26T02:58:32Z" name="BDD Test Suite" finished-at="2022-10-26T02:59:35Z" duration-ms="62811">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@3ba3f40d]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-10-26T02:58:32Z" name="Login and Update Profile Test" finished-at="2022-10-26T02:59:35Z" duration-ms="62811">
+      <class name="com.crowdar.bdd.cukes.TestNGSecuencialRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@3ba3f40d]" started-at="2022-10-26T02:58:32Z" name="setUpClass" finished-at="2022-10-26T02:58:33Z" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@3ba3f40d]" started-at="2022-10-26T02:58:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-26T02:59:35Z" duration-ms="61631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cargar horas exitosamente y asociar un proyecto"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Como usuario del sistema quiero interactuar con la aplicacion para registrar las horas de trabajo"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@3ba3f40d]" started-at="2022-10-26T02:59:35Z" name="tearDownClass" finished-at="2022-10-26T02:59:35Z" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.crowdar.bdd.cukes.TestNGSecuencialRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
